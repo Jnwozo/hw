@@ -6,6 +6,6 @@ files:
 hooks:
 
   ApplicationStart:
-    - location: Scripts/RunFunctionalTests.sh
+    - location: Scripts/applicationstart.sh
       timeout: 3600
       runas: ec2-user
